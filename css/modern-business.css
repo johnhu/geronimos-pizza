@@ -20,3 +20,63 @@
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.navbar-brand { 
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color: orangered; 
+}
+
+.navbar-brand:hover {
+  color: rgb(233, 62, 0);
+}
+
+.navbar {
+}
+
+.nav-link {
+  color: black;
+  padding-bottom: 0px;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head {
+  color: black; 
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.date {
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.card-body {
+  padding: 2px;
+}
+
+a {
+  color:darkslateblue;
+}
+
+.img-fluid {
+  display:block;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 4rem;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.footer-item-flex {
+  flex: 0 1 auto;
+}
