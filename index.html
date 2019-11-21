@@ -11,28 +11,28 @@
   <meta name="description" content="G's Pizza">
   <meta name="author" content="John Hu">
 
-  <title>Geronimo's Pizza</title>
+  <title>Geronimo's Pizza Home Page</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="icon" type="image/png" href="images/gsfav.png">
 </head>
 
 <body>
 
   <!-- (1)Navigation -->
-  <!-- TODO implement responsive navigation that matches your IA design -->
-  <!-- TODO put this nav on every page -->
   <nav class="navbar fixed-top navbar-expand-lg bg-white fixed-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">Geronimo's Pizza</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      <button class="navbar-toggler navbar-toggler-right navbar-light" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
@@ -46,15 +46,14 @@
             <a class="nav-link" href="staff.html">Staff</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
-            </li>
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
           </li>
           <button type="button" class="btn btn-success">Order Now</button>
         </ul>
       </div>
     </div>
   </nav>
-
   <!-- end nav -->
 
   <header>
@@ -66,21 +65,15 @@
       </ol>
 
       <!-- Wrapper for slides -->
-
-      <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
-
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('images/carousel1.jpg')">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('images/carousel2.jpg')">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('images/carousel3.jpg')">
           <div class="carousel-caption d-none d-md-block">
           </div>
@@ -100,99 +93,105 @@
   <!-- Page Content -->
   <div class="container">
     <!-- Portfolio Section -->
-    <!-- (3)TODO: Add the proper "row" and "col" classes to make this display work the way it should. -->
-    <!-- This section shoudld be contained in a row. -->
-    <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
-
     <h2 class="head">News</h2>
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body1.jpg" alt="A drone"></a>
           <div class="card-body">
-              <h4 class="date">Nov 3, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <h3 class="date">Nov 3, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Duarum enim vitarum</a>
+            </h4>
+            <p class>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi
+              sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body2.jpg" alt="A man hands a fruit to a woman at a market"></a>
           <div class="card-body">
-              <h4 class="date">Oct 1, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <h3 class="date">Oct 1, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Avaritiamne minuis?</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body3.jpg" alt="A young baker carries a tray of bread at a bakery"></a>
           <div class="card-body">
-              <h4 class="date">Jun 1, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <h3 class="date">Jun 1, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Restatis igitur vos</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body4.jpg" alt="Close-up of a blue metal structure"></a>
           <div class="card-body">
-              <h4 class="date">May 22, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <h3 class="date">May 22, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Quonam, inquit, modo</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body6.jpg" alt="A young pizza delivery man delivering pizza to a woman"></a>
           <div class="card-body">
-              <h4 class="date">Feb 15, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <h3 class="date">Feb 15, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Duo Reges: constructio interrete</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div>
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="images/body5.jpg" alt="A red airplane in the sky as seen from below"></a>
           <div class="card-body">
-              <h4 class="date">Jan 1, 2019</h4>
-              <h5 class="card-title">
-              <a href="#">Project One</a>
-            </h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <h3 class="date">Jan 1, 2019</h3>
+            <h4 class="card-title">
+              <a class="head" href="#">Esse enim, nisi eris, non potes</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus!</p>
             <a href="#" class="btn btn-outline-dark float-right">Read More &rarr;</a>
           </div>
         </div>
       </div>
     </div>
-  <!--/.container-->
+    <!--/.container-->
 
-  <!-- Footer -->
-  <footer class="py-5 bg-white">
-  <div class="container">
-    <div class="footer-flex">
-        <div class="footer-item-flex text-black"><p>Copyright &copy; 2019</p></div>
-        <div class="footer-item-flex text-black"><p>John Hu</p></div>
+    <!-- Footer -->
+    <footer class="py-5 bg-white">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer-item-flex text-black">
+            <p>Copyright &copy; 2019</p>
+          </div>
+          <div class="footer-item-flex text-black">
+            <p>John Hu</p>
+          </div>
     </footer>
   </div>
 

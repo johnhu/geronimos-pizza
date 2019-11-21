@@ -3,8 +3,26 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
- body {
+body {
   padding-top: 56px;
+}
+
+@media (min-width:320px) {
+  body {
+    padding-top: 99px;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    padding-top: 77px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-top: 59px;
+  }
 }
 
 .carousel-item {
@@ -21,30 +39,52 @@
   margin-bottom: 30px;
 }
 
-.navbar-brand { 
-  font-size: 2rem;
+/*Navbar styling*/
+.navbar-brand {
+  font-size: 1.7rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
-  color: orangered; 
+  color: rgb(224, 60, 0);
 }
 
 .navbar-brand:hover {
-  color: rgb(233, 62, 0);
-}
-
-.navbar {
+  color: rgb(205, 60, 0);
 }
 
 .nav-link {
   color: black;
-  padding-bottom: 0px;
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* Combined pseudo-class and attribute selector */
+li a:hover,
+a:hover[href="#"] {
+  color: grey;
+}
+
+/*Animated elements below*/
+.card-img-top[src="images/menu1.jpg"]:hover,
+.card-img-top[src="images/menu3.jpg"]:hover,
+.card-img-top[src="images/menu5.jpg"]:hover {
+  transform: skew(35deg);
+  transition: 0.1s;
+}
+
+.card-img-top[src="images/menu2.jpg"]:hover,
+.card-img-top[src="images/menu4.jpg"]:hover {
+  transform: skew(-35deg);
+  transition: 0.1s;
+}
+
+.btn-success:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+
+/*Additional styling*/
 .head {
-  color: black; 
+  color: black;
   margin-top: 20px;
-  font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
 }
@@ -58,21 +98,16 @@
   padding: 2px;
 }
 
-a {
-  color:darkslateblue;
-}
-
 .img-fluid {
-  display:block;
+  display: block;
 }
 
 .footer-flex {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   height: 4rem;
-  padding: 20px;
   position: relative;
   width: 100%;
 }
