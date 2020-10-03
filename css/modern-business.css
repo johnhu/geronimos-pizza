@@ -3,8 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-body {
+ body {
+  color: rgb(141, 38, 0);
   padding-top: 56px;
+  background-color: rgb(255, 153, 116);
 }
 
 @media (min-width:320px) {
@@ -25,6 +27,34 @@ body {
   }
 }
 
+@media (min-width: 994px) {
+  .news-image>img {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  #brief, #about-img {
+    width: 80%;
+    margin: auto;
+  }
+  }
+  
+  @media only screen and (max-width: 425px) {
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+  }
+
+.home-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -35,13 +65,28 @@ body {
   background-size: cover;
 }
 
-.portfolio-item {
-  margin-bottom: 30px;
+.news-img {
+  background-color: rgb(224, 60, 0);
+}
+
+.news-item {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width:100%;
+}
+
+#brief {
+  background-color: rgba(223, 223, 223, 0.5);
+  padding: 10px;
+  margin-bottom: 55px;
 }
 
 /*Navbar styling*/
+
 .navbar-brand {
-  font-size: 1.7rem;
+  padding: 0;
+  font-size: 2.2rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   color: rgb(224, 60, 0);
@@ -52,8 +97,9 @@ body {
 }
 
 .nav-link {
-  color: black;
+  color: rgb(141, 38, 0);
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem; 
 }
 
 /* Combined pseudo-class and attribute selector */
@@ -76,6 +122,19 @@ a:hover[href="#"] {
   transition: 0.1s;
 }
 
+.cost-add {
+  display: flex;
+}
+
+.add-cart {
+  position:absolute;
+  right:24px;
+}
+
+.btn-success {
+  margin-left: 10px;
+}
+
 .btn-success:hover {
   transform: scale(1.05);
   transition: 0.2s ease;
@@ -83,23 +142,59 @@ a:hover[href="#"] {
 
 /*Additional styling*/
 .head {
-  color: black;
+  color: rgb(141, 38, 0);
   margin-top: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
 }
 
+.head2 {
+  color: white;
+}
+
+.head3 {
+  font-size: 1.7rem;
+  font-weight:bold;
+}
+
+.controls {
+  font-weight:bold;
+}
+
+.head2:hover {
+  text-decoration: none;
+  color: rgb(216, 216, 216);
+}
+
 .date {
-  text-align: right;
-  font-size: 0.9rem;
+  font-size: 18px;
+  color: rgb(216, 216, 216);
 }
 
 .card-body {
-  padding: 2px;
+  padding: 10px;
+  background-color: rgb(224, 60, 0);
+  color: white;
+}
+
+.btn.btn-outline-dark {
+  color: white;
+}
+
+h5 a {
+  color:  rgb(141, 38, 0);
+}
+h5 a:hover {
+  color:  rgb(141, 38, 0);
 }
 
 .img-fluid {
   display: block;
+}
+
+footer {
+  width: 100%;
+  bottom:0px;
 }
 
 .footer-flex {
